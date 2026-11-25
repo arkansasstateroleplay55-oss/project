@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/
 export default defineConfig({
-  plugins:,
+  plugins: {}
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
